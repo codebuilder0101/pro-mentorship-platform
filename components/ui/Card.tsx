@@ -9,7 +9,7 @@ interface CardProps {
 export default function Card({ children, className = '', hover = false }: CardProps) {
   return (
     <div
-      className={`rounded-xl shadow-md p-6 ${
+      className={`rounded-xl p-6 ${
         hover ? 'hover:shadow-xl transition-shadow duration-200' : ''
       } ${className}`}
     >
